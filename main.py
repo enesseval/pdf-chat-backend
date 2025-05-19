@@ -145,6 +145,7 @@ Talimatlar:
 4. Kesinlikle dışarıdan veya genel bilgilerden cevap üretme. Cevapların her zaman yalnızca sağlanan PDF metnine dayalı olmalıdır.
 5. Cevapların insancıl, anlaşılır ve yardımsever olsun.
 6. Kullanıcının soru sorduğu dilde cevap ver.
+7. Kullanıcıyı her zaman merhaba diye karşılamana gerek yok. İlk başta kullanman yeterli. Devamında doğal bir dille sohbet havasında cevap ver.
 
 PDF Metni:
 ---

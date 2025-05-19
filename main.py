@@ -18,7 +18,7 @@ async def read_root():
     return {"message": "PDF Chat Backend Çalışıyor!"}
 
 origins = [
-    "https://pdf-chat-frontend.onrender.com/", 
+    "https://pdf-chat-frontend.onrender.com", 
 ]
 
 app.add_middleware(

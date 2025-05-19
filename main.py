@@ -37,7 +37,6 @@ class ChatRequest(BaseModel):
 @app.post("/upload_pdf/") # POST metodu kullanıyoruz çünkü dosya gönderiyoruz
 async def upload_pdf_endpoint(file: UploadFile = File(...), x_api_key:str = Header(None)):
     # file: Yüklenen dosyayı temsil eden bir UploadFile nesnesi
-    print(x_api_key)
     try:
         contents = await file.read()  # Dosya içeriğini byte olarak oku
         # PyMuPDF ile PDF'i aç ve metni çıkar
